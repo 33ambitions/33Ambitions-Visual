@@ -1,0 +1,18 @@
+body{
+	background: black;
+}
+p{
+	color: #E0E0E0;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+}
+a{color: white;}
+
+img.headline{
+	padding-left: 650px;
+}
+p.headline{
+	padding-left: 570px;
+}
+a.headline{
+	padding-left: 710px;
