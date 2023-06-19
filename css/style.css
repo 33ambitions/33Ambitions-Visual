@@ -1,18 +1,56 @@
+
 body{
+	font-family: 'DotGothic16', sans-serif;
+
 	background: black;
+	margin: 0px;
 }
+
+
+
 p{
-	color: #E0E0E0;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 25px;
+	color: #FFA9F2;
+	font-family: 'DotGothic16', sans-serif;
 }
 a{color: white;}
 
 img.headline{
-	padding-left: 650px;
+display: block;
+	}
+
+img.work1{
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
 }
-p.headline{
-	padding-left: 570px;
+img.work2{
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
 }
-a.headline{
-	padding-left: 710px;
+
+h2.contact{
+	font-family: 'DotGothic16', sans-serif;
+	color: #C425FF
+ display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width 560px){
+	.headline{width: 100%}
+}
+
+@media all and (max-width 560px){
+	.work1{width: 100%}
+}
+
+@media all and (max-width 560px){
+	.contact{width: 100%}
+}
+
+
+
